@@ -5,11 +5,16 @@ import Greet from "./Components/Greet";
 import Welcome from "./Components/Welcome";
 import Hello from "./Components/Hello";
 import Message from "./Components/Message";
+import ClickFunction from "./Components/ClickFunction";
+import ClickClass from "./Components/ClickClass";
 
 function App() {
   return (
     <div className="App">
-      <Welcome names="nano" username="hero"/>
+
+      <ClickFunction />
+      <ClickClass />
+
     </div>
   );
 }
