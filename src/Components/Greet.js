@@ -1,7 +1,15 @@
 import React from "react";
 
-function Greet() {
-  return <h1>Welcome Nano</h1>;
-}
+const Greet = (props) => {
+  console.log(props);
+  return (
+    <div>
+      <h1>
+        good morning {props.names} your user name is {props.username}
+      </h1>
+      {props.children}
+    </div>
+  );
+};
 
 export default Greet;
