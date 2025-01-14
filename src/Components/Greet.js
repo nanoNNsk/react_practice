@@ -1,13 +1,12 @@
 import React from "react";
 
-const Greet = (props) => {
-  console.log(props);
+const Greet = props => {
+  const { names, username } = props;
   return (
     <div>
       <h1>
-        good morning {props.names} your user name is {props.username}
+        good morning {names} your user name is {username}
       </h1>
-      {props.children}
     </div>
   );
 };
