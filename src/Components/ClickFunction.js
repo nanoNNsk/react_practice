@@ -1,12 +1,14 @@
-import React from 'react'
+import React from "react";
 
 function ClickFunction() {
-    function clickhandler() {
-        console.log('button clicked')
-    }
+  function clickhandler() {
+    console.log("button clicked");
+  }
   return (
-    <button onClick={clickhandler}>press here</button>
-  )
+    <div>
+      <button onClick={clickhandler}>press here</button>
+    </div>
+  );
 }
 
-export default ClickFunction
+export default ClickFunction;
