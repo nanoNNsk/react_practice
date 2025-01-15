@@ -7,13 +7,12 @@ import Hello from "./Components/Hello";
 import Message from "./Components/Message";
 import ClickFunction from "./Components/ClickFunction";
 import ClickClass from "./Components/ClickClass";
+import EventBind from "./Components/EventBind";
 
 function App() {
   return (
     <div className="App">
-
-      <ClickFunction />
-      <ClickClass />
+      <EventBind />
 
     </div>
   );
