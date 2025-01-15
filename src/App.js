@@ -8,11 +8,12 @@ import Message from "./Components/Message";
 import ClickFunction from "./Components/ClickFunction";
 import ClickClass from "./Components/ClickClass";
 import EventBind from "./Components/EventBind";
+import ParentComponent from "./Components/ParentComponent";
 
 function App() {
   return (
     <div className="App">
-      <EventBind />
+      <ParentComponent/>
 
     </div>
   );
