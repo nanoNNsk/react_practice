@@ -21,7 +21,7 @@ function Namelists() {
     ]
     const name = ['nano','nani','nunu']
     const namelist = name.map(name=><h2>{name}</h2>)
-    const personlist = person.map(person=><Person person={person}/>)
+    const personlist = person.map(person=><Person key={person.name} person={person}/>)
   return (
     <div>
         {personlist}
